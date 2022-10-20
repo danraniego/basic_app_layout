@@ -12,8 +12,8 @@ class TabTwo extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        ...drinks.map((user) => DrinkListItem(
-          item: user,
+        ...drinks.map((drink) => DrinkListItem(
+          item: drink,
           icon: Icons.ad_units,
         )).toList()
       ],
